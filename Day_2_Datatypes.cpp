@@ -1,3 +1,4 @@
+//datatypes
 #include<iostream>
 using namespace std;
 int main()
@@ -11,3 +12,6 @@ int main()
     cout<<ch<<" is a character with size "<<sizeof(char)<<" byte. "<<endl;
     cout<<b<<" is a boolean value with size "<<sizeof(bool)<<" byte. "<<endl;
 }
+/*The program
+ends here*/
+
