@@ -66,4 +66,28 @@ int main()
     }
 }
 
-
+#include<iostream>
+using namespace std;
+int main()
+{   
+    int i;
+    int n1,n2;
+    cout<<"Enter start and end: ";
+    cin>>n1>>n2;
+    for(int i=n1;i<=n2;i++)
+    {
+        int flag=1;
+        for(int j=2;j<=i/2;j++)
+        {
+        if(i%j==0)
+        {
+            flag=0;
+            break;
+        }
+        }
+        if(flag==1)
+        {
+        cout<<i<<" is a prime number."<<endl;
+        }
+    }
+}
